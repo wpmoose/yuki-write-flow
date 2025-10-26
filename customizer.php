@@ -20,6 +20,8 @@ if (!function_exists('yuki_write_flow_return_no')) {
     }
 }
 
+add_filter( 'yuki_enable_customizer_cache_default_value', 'yuki_write_flow_return_no' );
+
 //
 // Header top row
 //
