@@ -102,8 +102,8 @@ add_filter('yuki_archive_content_spacing_default_value', 'yuki_write_flow_conten
 //
 // Header Logo Element
 //
-if ( ! function_exists( 'yuki_blogger_header_el_logo_site_title_typography' ) ) {
-	function yuki_blogger_header_el_logo_site_title_typography() {
+if ( ! function_exists( 'yuki_write_flow_header_el_logo_site_title_typography' ) ) {
+	function yuki_write_flow_header_el_logo_site_title_typography() {
 		return [
 			'family'        => 'inherit',
 			'fontSize'      => '24px',
@@ -113,7 +113,7 @@ if ( ! function_exists( 'yuki_blogger_header_el_logo_site_title_typography' ) ) 
 		];
 	}
 }
-add_filter( 'yuki_header_el_logo_site_title_typography_default_value', 'yuki_blogger_header_el_logo_site_title_typography' );
+add_filter( 'yuki_header_el_logo_site_title_typography_default_value', 'yuki_write_flow_header_el_logo_site_title_typography' );
 
 //
 // Archive Layout
